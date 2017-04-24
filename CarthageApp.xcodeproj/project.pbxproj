@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A203A21EAA758A00BDFFB4 /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A2039F1EAA758000BDFFB4 /* Dollar.framework */; };
+		84A203CF1EADE8CC00BDFFB4 /* Cent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A203C71EADE86D00BDFFB4 /* Cent.framework */; };
 		92FA7B9F1A997E4400ED6952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FA7B9E1A997E4400ED6952 /* AppDelegate.swift */; };
 		92FA7BA11A997E4400ED6952 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FA7BA01A997E4400ED6952 /* ViewController.swift */; };
 		92FA7BA41A997E4400ED6952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FA7BA21A997E4400ED6952 /* Main.storyboard */; };
@@ -16,6 +18,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		84A2039E1EAA758000BDFFB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A203991EAA758000BDFFB4 /* Dollar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "_____Product_Dollar";
+			remoteInfo = Dollar;
+		};
+		84A203A01EAA758000BDFFB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A203991EAA758000BDFFB4 /* Dollar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "_____Product_DollarTests";
+			remoteInfo = DollarTests;
+		};
+		84A203C61EADE86D00BDFFB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A203C01EADE86C00BDFFB4 /* Cent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 924F92DC195F8338003DBB60;
+			remoteInfo = Cent;
+		};
+		84A203C81EADE86D00BDFFB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A203C01EADE86C00BDFFB4 /* Cent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 92E6688119F0B89600BB4FB8;
+			remoteInfo = CentTests;
+		};
 		92FA7BAF1A997E4400ED6952 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 92FA7B911A997E4400ED6952 /* Project object */;
@@ -26,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84A203991EAA758000BDFFB4 /* Dollar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Dollar.xcodeproj; path = Dollar/Dollar.xcodeproj; sourceTree = "<group>"; };
+		84A203C01EADE86C00BDFFB4 /* Cent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cent.xcodeproj; path = Cent/Cent.xcodeproj; sourceTree = "<group>"; };
 		92FA7B991A997E4400ED6952 /* CarthageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FA7B9D1A997E4400ED6952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92FA7B9E1A997E4400ED6952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A203CF1EADE8CC00BDFFB4 /* Cent.framework in Frameworks */,
+				84A203A21EAA758A00BDFFB4 /* Dollar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +90,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84A2039A1EAA758000BDFFB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A2039F1EAA758000BDFFB4 /* Dollar.framework */,
+				84A203A11EAA758000BDFFB4 /* DollarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A203C11EADE86C00BDFFB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A203C71EADE86D00BDFFB4 /* Cent.framework */,
+				84A203C91EADE86D00BDFFB4 /* CentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		92FA7B901A997E4400ED6952 = {
 			isa = PBXGroup;
 			children = (
+				84A203C01EADE86C00BDFFB4 /* Cent.xcodeproj */,
+				84A203991EAA758000BDFFB4 /* Dollar.xcodeproj */,
 				92FA7B9B1A997E4400ED6952 /* CarthageApp */,
 				92FA7BB11A997E4400ED6952 /* CarthageAppTests */,
 				92FA7B9A1A997E4400ED6952 /* Products */,
@@ -183,6 +237,16 @@
 			mainGroup = 92FA7B901A997E4400ED6952;
 			productRefGroup = 92FA7B9A1A997E4400ED6952 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84A203C11EADE86C00BDFFB4 /* Products */;
+					ProjectRef = 84A203C01EADE86C00BDFFB4 /* Cent.xcodeproj */;
+				},
+				{
+					ProductGroup = 84A2039A1EAA758000BDFFB4 /* Products */;
+					ProjectRef = 84A203991EAA758000BDFFB4 /* Dollar.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				92FA7B981A997E4400ED6952 /* CarthageApp */,
@@ -190,6 +254,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		84A2039F1EAA758000BDFFB4 /* Dollar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Dollar.framework;
+			remoteRef = 84A2039E1EAA758000BDFFB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84A203A11EAA758000BDFFB4 /* DollarTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = DollarTests.xctest;
+			remoteRef = 84A203A01EAA758000BDFFB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84A203C71EADE86D00BDFFB4 /* Cent.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cent.framework;
+			remoteRef = 84A203C61EADE86D00BDFFB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84A203C91EADE86D00BDFFB4 /* CentTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CentTests.xctest;
+			remoteRef = 84A203C81EADE86D00BDFFB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		92FA7B971A997E4400ED6952 /* Resources */ = {
@@ -214,7 +309,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		92FA7BC21A9981C100ED6952 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -223,7 +318,7 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
@@ -371,10 +466,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = CarthageApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.encoredevlabs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0.1;
 			};
 			name = Debug;
@@ -388,10 +485,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = CarthageApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.encoredevlabs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;

@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "90BE31D6B2878DFC6C830949F2E7E4C1B2C79255",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "90BE31D6B2878DFC6C830949F2E7E4C1B2C79255" : 9223372036854775807,
+    "B67594C502E9540D0D36C23E047F40A3C6716DE2" : 9223372036854775807,
+    "4E2F5E824C021282D3F5789E108FCDC580F66A19" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "36B060F0-7F77-48F7-8ABB-9FA894BBD5EC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "90BE31D6B2878DFC6C830949F2E7E4C1B2C79255" : "DollarCarthageApp\/",
+    "B67594C502E9540D0D36C23E047F40A3C6716DE2" : "DollarCarthageApp\/Cent\/",
+    "4E2F5E824C021282D3F5789E108FCDC580F66A19" : "DollarCarthageApp\/Dollar\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CarthageApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CarthageApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ankurp\/Dollar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4E2F5E824C021282D3F5789E108FCDC580F66A19"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/v-nanov\/DollarCarthageApp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "90BE31D6B2878DFC6C830949F2E7E4C1B2C79255"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ankurp\/Cent.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B67594C502E9540D0D36C23E047F40A3C6716DE2"
+    }
+  ]
+}
